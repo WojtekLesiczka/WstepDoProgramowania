@@ -1,0 +1,12 @@
+
+import random
+x = random.randint(1,1000)
+
+
+
+y = float(input("Podaj spalanie średnie na 100km:  ")) 
+
+b=x/y
+a = b*6.5
+
+print("Spalonych zostanie ",b,"litrów ,koszt trasy będzie wynosił",a,"zł")
